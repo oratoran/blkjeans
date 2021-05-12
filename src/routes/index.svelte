@@ -1,10 +1,24 @@
-<div class="overflow-auto ribbon_list_wrapper">
-    <ul class="flex  ribbon_list" style="height: 253px; width: 3323px; left: 0px;">
-        <li data-count="1" data-title=" " data-caption="" class="slide1 currentStep" data-offset="0" style="width: 207px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-5-691x910.jpg" alt=""></div></li><li data-count="2" data-title=" " data-caption="" class="slide2" data-offset="207" style="width: 184px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-9-606x910.jpg" alt=""></div></li><li data-count="3" data-title=" " data-caption="" class="slide3" data-offset="391" style="width: 395px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-6-1364x910.jpg" alt=""></div></li><li data-count="4" data-title=" " data-caption="" class="slide4" data-offset="786" style="width: 374px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-7-1292x910.jpg" alt=""></div></li><li data-count="5" data-title=" " data-caption="" class="slide5" data-offset="1160" style="width: 184px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-12-606x910.jpg" alt=""></div></li><li data-count="6" data-title=" " data-caption="" class="slide6" data-offset="1344" style="width: 435px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-13-1510x910.jpg" alt=""></div></li><li data-count="7" data-title=" " data-caption="" class="slide7" data-offset="1779" style="width: 184px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-21-606x910.jpg" alt=""></div></li><li data-count="8" data-title=" " data-caption="" class="slide8" data-offset="1963" style="width: 395px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-26-1364x910.jpg" alt=""></div></li><li data-count="9" data-title=" " data-caption="" class="slide9" data-offset="2358" style="width: 211px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-33-705x910.jpg" alt=""></div></li><li data-count="10" data-title=" " data-caption="" class="slide10" data-offset="2569" style="width: 348px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-36-1200x910.jpg" alt=""></div></li><li data-count="11" data-title=" " data-caption="" class="slide11" data-offset="2917" style="width: 191px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-39-633x910.jpg" alt=""></div></li><li data-count="12" data-title=" " data-caption="" class="slide12" data-offset="3108" style="width: 200px;"><div class="slide_wrapper" style="height: 253px;"><img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-38-665x910.jpg" alt=""></div></li>                    </ul>
+<div class="flex justify-start p-1">
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-5-691x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-9-606x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-6-1364x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-7-1292x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-12-606x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-13-1510x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-21-606x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-26-1364x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-33-705x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-36-1200x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-39-633x910.jpg" alt="slide 1" />
+    <img src="https://blkjeans.com/wp-content/uploads/2015/04/BLK-JEANS_DENIM_DNM_2015_COLLECTION-38-665x910.jpg" alt="slide 1" />
 </div>
 
 <style>
-    .ribbon_list_wrapper {
+    div {
         height: calc(100vh - 160px);
+        overflow-x: scroll;
+    }
+    img {
+        @apply p-2
     }
 </style>
