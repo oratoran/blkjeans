@@ -2,7 +2,7 @@
     import SocialIcons from './SocialIcons.svelte'
 </script>
 
-<header class="text-gray-500 font-bold h-20 m-auto p-6 flex w-full justify-between items-center">
+<header class=" text-turquiseDark font-bold h-20 m-auto p-6 flex w-full justify-between items-center">
 	<a href="./">
         <img src="/images/blk-logo-s.png" alt="BLK Jeans Logo">
     </a>
