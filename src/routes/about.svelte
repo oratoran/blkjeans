@@ -16,7 +16,7 @@
             <h2 class="font-bold text-2xl">WE ARE HERE TO ANSWER FOR YOUR NEEDS</h2>
             <p class="text-gray-500">Contact with us for your needs, we will offer best possible offers back immediately</p>
         </div>
-        <button class="bg-gray-800 p-4 rounded-md" style="color: white;"><a href="/contact">CONTACT US!</a></button>
+        <button class="bg-gray-800 p-4 rounded-md" style="color: white;"><a href="/contact/">CONTACT US!</a></button>
     </div>
 </div>
 

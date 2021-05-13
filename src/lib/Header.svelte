@@ -3,15 +3,15 @@
 </script>
 
 <header class=" text-turquiseDark font-bold h-20 m-auto p-6 flex w-full justify-between items-center">
-	<a href="./">
+	<a href="/">
         <img src="/images/blk-logo-s.png" alt="BLK Jeans Logo">
     </a>
 	<nav class="flex ml-9">
-		<a href="./">HOME</a>
-		<a href="./about/">ABOUT</a>
-		<a href="./blk-collection/">BLK COLLECTION</a>
-		<a href="./showreel/">SHOWREEL</a>
-		<a href="./contact/">CONTACT</a>
+		<a href="/">HOME</a>
+		<a href="/about/">ABOUT</a>
+		<a href="/blk-collection/">BLK COLLECTION</a>
+		<a href="/showreel/">SHOWREEL</a>
+		<a href="/contact/">CONTACT</a>
 	</nav>
 	<a href="tel:+902126392422">+90 212 639 24 22</a>
     <SocialIcons/>

@@ -13,6 +13,7 @@ const config = {
 
 	kit: {
 		adapter: vercel(),
+		trailingSlash: 'ignore',
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
 		
