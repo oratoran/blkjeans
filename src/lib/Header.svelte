@@ -15,13 +15,11 @@
 	<nav class="flex flex-col  ml-9  {active ? 'w-full md:w-auto md:flex-row' : 'hidden md:inline-block'}">
 		<a href="/">HOME</a>
 		<a href="/about/">ABOUT</a>
-		<a href="/collection/">COLLECTION</a>
 		<a href="/blk-collection/">BLK COLLECTION</a>
-		<a href="/blk-collection-new/">NEW BLK COLLECTION</a>
 		<a href="/showreel/">SHOWREEL</a>
 		<a href="/contact/">CONTACT</a>
 	</nav>
-	<a class="hidden md:block" href="tel:+902126392422">+90 212 639 24 22</a>
+	<a class="hidden md:hidden lg:block" href="tel:+902126392422">+90 212 639 24 22</a>
     <SocialIcons/>
 </header>
 

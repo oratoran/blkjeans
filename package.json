@@ -1,6 +1,7 @@
 {
   "name": "blkjeans",
-  "version": "0.0.1",
+  "author": "Özgür Dinçer",
+  "version": "1.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
