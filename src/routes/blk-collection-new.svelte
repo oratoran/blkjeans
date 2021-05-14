@@ -12,6 +12,6 @@
 
 <script>
 	import CardItem from '$lib/CardItemNew.svelte'
-  </script>
+</script>
   
-  <CardItem images={images}/>
+<CardItem images={images}/>
