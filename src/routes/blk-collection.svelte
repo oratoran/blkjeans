@@ -1,6 +1,6 @@
 <script>
 	import CardItem from '$lib/CardItem.svelte'
-	
+
 	const images = [
 	  {
 		title: "Photo title",

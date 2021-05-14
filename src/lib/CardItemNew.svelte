@@ -23,7 +23,7 @@
 	{#if active}
 		<div id="overlay" class="grid cell">
 			<div id="overlayImage" class="rel">
-				<img class="bgw" src={images[activeImage].img} alt={images[activeImage].alt}/>
+				<img class="bgw" src={images[activeImage]} alt={images[activeImage]}/>
 				<button class="abs arrow arrowLeft white noBor" on:click={() => changeImg(1)}>&lsaquo;</button>
 				<button class="abs arrow arrowRight white noBor" on:click={() => changeImg(2)}>&rsaquo;</button>
 				<button id="close" class="abs bold bgw" on:click={() => (active = '')}>X</button>
@@ -38,7 +38,7 @@
         {#each images as item, i}
           <div class=" overflow-hidden mb-8">
             <div class="relative cursor-pointer">
-              <img class="" src="{item.img}" alt="{item.title}" on:click={() => showImg(i)} />
+              <img class="" src="/images/collection/{item}" alt="{item}" on:click={() => showImg(i)} />
             </div>
           </div>
         {/each}
