@@ -1,5 +1,6 @@
 <script>
     import {onMount} from 'svelte';
+    import OpenGraph from '$lib/OpenGraph.svelte';
     let ScrollIt;
 
     onMount(() => {
@@ -9,8 +10,16 @@
     let scrollMe = function (x,y){
         ScrollIt.scrollBy(x,y);
 	}
-    
 </script>
+
+<OpenGraph
+  data={{
+    description:
+      "BLK JEANS menswear is experienced in casual clothes and manufacture trendy clothes for men. BLK Collection are made of denim, woven and knitted fabrics.",
+    title: "BLK JEANS - Menswear collection of denim and jeanswear",
+  }}
+/>
+
 <div id="myScroll" class="flex flex-col justify-start p-1 md:overflow-hidden md:flex-row">
     <img src="/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-5.jpg" alt="BLK Jeans Menswear Slide" loading="lazy" />
     <img src="/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-9.jpg" alt="BLK Jeans Menswear Slide" loading="lazy" />

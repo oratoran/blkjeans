@@ -1,30 +1,14 @@
-<script context="module">
-	export const prerender = true;
+<script>
+    import OpenGraph from '$lib/OpenGraph.svelte';
 </script>
 
-<script>
-    let isSubmitting = false;
-  
-    const handleSubmit = (e) => {
-      let myForm = document.getElementById("test");
-      let formData = new FormData(myForm);
-      isSubmitting = true;
-      return fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      })
-        .then(() => {
-          console.log("Form successfully submitted");
-          isSubmitting = false;
-          myForm.reset();
-        })
-        .catch((error) => {
-          alert(error);
-          isSubmitting = false;
-        });
-    };
-  </script>
+<OpenGraph
+  data={{
+    description:
+      "Company Güç Tekstil San. ve Tic. Ltd. Şti.Çobançeşme Mah. Altay Cad. Sülün Sok. No: 8Yenibosna-Bahçelievler / Istanbul – TurkeyTel: +90 212 639 24 22",
+    title: "Contact - BLK JEANS",
+  }}
+/>
 
 <div class="container flex-col mx-auto p-3 md:p-10">
     <div class="flex flex-col md:flex-row mx-auto justify-between py-8">

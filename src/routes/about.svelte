@@ -1,3 +1,15 @@
+<script>
+    import OpenGraph from '$lib/OpenGraph.svelte';
+</script>
+
+<OpenGraph
+  data={{
+    description:
+      "Blk, G&uuml;&ccedil; Textile, has been doing business for the last 18 years. Its main principle is to be fashion-conscious and manufacture trendy clothes. The company is experienced in casual clothes.",
+    title: "About - BLK JEANS",
+  }}
+/>
+
 <div class="container p-3 md:w-4/5 flex flex-col mx-auto content-center items-center">
     <div>
         <p>

@@ -1,4 +1,4 @@
-const slugRegex = /([\w-]+)\.(jpg|png)/i;
+const slugRegex = /([\w-]+)\.jpg\.(webp|png)/i;
 
 export async function getAllPosts(globArr) {
 	const postPromises = [];
