@@ -1,5 +1,6 @@
 <script>
-    export let images
+
+let images = Array.from({length:40}).map((_,i) => `/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-${i+1}.jpg.webp`);
 
     $: activeImage = 0;
 	$: activeSrc = '';
@@ -28,7 +29,7 @@
 	{#if active}
 		<div id="overlay" class="grid cell">
 			<div id="overlayImage" class="rel">
-				<img class="bgw" src="/images/collection/{images[activeImage][0]}" alt={images[activeImage][0]} />
+				<img class="bgw" src="{images[activeImage]}" alt={images[activeImage][0]} />
 				<button class="abs arrow arrowLeft white noBor" on:click={() => changeImg(1)}>&lsaquo;</button>
 				<button class="abs arrow arrowRight white noBor" on:click={() => changeImg(2)}>&rsaquo;</button>
 				<button id="close" class="abs bold bgw" on:click={() => (active = '')}>X</button>
@@ -39,11 +40,11 @@
 	<div id="img">
 		
 		{#if images[1]}
-      <div class="container masonry px-3 md:px-16 py-8">
-        {#each images as [slug, {post}], i}
+      <div class="container masonry mx-auto px-3 md:px-16 py-8">
+        {#each images as image, i}
           <div class=" overflow-hidden mb-8">
             <div class="relative cursor-pointer">
-              <img class="" src="/images/collection/{slug}" alt="{i}" on:click={() => showImg(i)} loading="lazy" />
+              <img src={image} alt={i} on:click={() => showImg(i)} />
             </div>
           </div>
         {/each}

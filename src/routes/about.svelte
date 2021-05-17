@@ -1,11 +1,11 @@
 <script>
-    import OpenGraph from '$lib/OpenGraph.svelte';
+	import OpenGraph from '$lib/OpenGraph.svelte';
 </script>
 
 <OpenGraph
   data={{
     description:
-      "Blk, G&uuml;&ccedil; Textile, has been doing business for the last 18 years. Its main principle is to be fashion-conscious and manufacture trendy clothes. The company is experienced in casual clothes.",
+      "Blk, Güç Textile, has been doing business for the last 18 years. Its main principle is to be fashion-conscious and manufacture trendy clothes. The company is experienced in casual clothes.",
     title: "About - BLK JEANS",
   }}
 />

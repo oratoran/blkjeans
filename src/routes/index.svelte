@@ -1,13 +1,9 @@
 <script>
-    import {onMount} from 'svelte';
     import OpenGraph from '$lib/OpenGraph.svelte';
-    let ScrollIt;
+ 
+   let ScrollIt;
 
-    onMount(() => {
-		ScrollIt = document.querySelector('#myScroll');
-	});
-    
-    let scrollMe = function (x,y){
+    function scrollMe(x,y) {
         ScrollIt.scrollBy(x,y);
 	}
 </script>
@@ -20,7 +16,7 @@
   }}
 />
 
-<div id="myScroll" class="flex flex-col justify-start p-1 md:overflow-hidden md:flex-row">
+<div id="myScroll" bind:this={ScrollIt} class="flex flex-col justify-start p-1 md:overflow-hidden md:flex-row">
     <img src="/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-5.jpg.webp" alt="BLK Jeans Menswear Slide" loading="lazy" />
     <img src="/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-9.jpg.webp" alt="BLK Jeans Menswear Slide" loading="lazy" />
     <img src="/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-6.jpg.webp" alt="BLK Jeans Menswear Slide" loading="lazy" />
@@ -61,6 +57,6 @@
     }
     }
     img {
-        @apply p-2
+        @apply p-2;
     }
 </style>
