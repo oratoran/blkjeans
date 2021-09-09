@@ -31,12 +31,12 @@
     <img src="/images/collection/BLK-JEANS_DENIM_DNM_2015_COLLECTION-38.jpg.webp" alt="BLK Jeans Menswear Slide" loading="lazy" />
 </div>
 <div class="scrollBar hidden md:inline-block">
-    <button on:click="{()=>scrollMe(-400,0)}">
+    <button on:click="{()=>scrollMe(-400,0)}" aria-label="Go Next">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
         </svg>
     </button>
-    <button on:click="{()=>scrollMe(400,0)}">
+    <button on:click="{()=>scrollMe(400,0)}" aria-label="Go Previous">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
         </svg>
@@ -57,6 +57,6 @@
     }
     }
     img {
-        @apply p-2;
+        @apply p-2 h-full w-full
     }
 </style>

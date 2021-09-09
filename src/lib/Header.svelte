@@ -27,4 +27,7 @@
     nav a {
         @apply p-4 hover:text-red-600;
     }
+	img {
+		@apply h-full w-full;
+	}
 </style>
